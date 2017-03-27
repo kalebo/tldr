@@ -2,21 +2,28 @@
 
 [![Build status][travis-image]][travis-url]
 [![Gitter chat][gitter-image]][gitter-url]
+[![Merged PRs][prs-merged-image]][prs-merged-url]
 [![Issue stats][issuestats-image]][issuestats-url]
-[![CLA assistant][cla-assistant-image]][cla-assistant-url]
+[![GitHub contributors][contributors-image]][contributors-url]
+[![license][license-image]][license-url]
 
 [travis-url]: https://travis-ci.org/tldr-pages/tldr
 [travis-image]: https://travis-ci.org/tldr-pages/tldr.svg?branch=master
 [gitter-url]: https://gitter.im/tldr-pages/tldr
 [gitter-image]: https://badges.gitter.im/tldr-pages/tldr.svg
+[prs-merged-url]: https://github.com/tldr-pages/tldr/pulls?q=is:pr+is:merged
+[prs-merged-image]: https://img.shields.io/github/issues-pr-closed-raw/tldr-pages/tldr.svg?label=merged+PRs
 [issuestats-url]: http://isitmaintained.com/project/tldr-pages/tldr
 [issuestats-image]: http://isitmaintained.com/badge/resolution/tldr-pages/tldr.svg
-[cla-assistant-url]: https://cla-assistant.io/tldr-pages/tldr
-[cla-assistant-image]: https://cla-assistant.io/readme/badge/tldr-pages/tldr
+[contributors-url]: https://github.com/tldr-pages/tldr/graphs/contributors
+[contributors-image]: https://img.shields.io/github/contributors/tldr-pages/tldr.svg
+[license-url]: https://github.com/tldr-pages/tldr/blob/master/LICENSE.md
+[license-image]: https://img.shields.io/github/license/tldr-pages/tldr.svg
 
 A collection of simplified and community-driven man pages.
 
-Install it with `npm install -g tldr` or [try the web client](http://tldr.ostera.io).
+Install it with `sudo npm install -g tldr`
+or [try the web client](http://tldr.ostera.io).
 
 ## What is tldr?
 
@@ -49,16 +56,19 @@ You can access these pages on your computer using one of the following clients:
     [Google Play](https://play.google.com/store/apps/details?id=de.gianasista.tldr_viewer)
   - [tldroid](https://github.com/hidroh/tldroid), available on
     [Google Play](https://play.google.com/store/apps/details?id=io.github.hidroh.tldroid)
-- [Bash client](https://github.com/raylee/tldr)
-- [C++ client](https://github.com/tldr-pages/tldr-cpp-client): `brew install tldr-pages/tldr/tldr`
+- Bash clients:
+  - [tldr](https://github.com/raylee/tldr)
+  - [tldr-bash-client](https://github.com/pepa65/tldr-bash-client)
+- [C++ client](https://github.com/tldr-pages/tldr-cpp-client): `brew install tldr`
 - [Crystal client](https://github.com/porras/tlcr): `brew install porras/tap/tlcr`
 - [Dart client](https://github.com/hterkelsen/tldr): `pub global activate tldr`
-- [Elixir client](https://github.com/tldr-pages/tldr_elixir_client) (binaries not yet available)
+- [Elixir client](https://github.com/edgurgel/tldr_elixir_client) (binaries not yet available)
 - [Emacs client](https://github.com/kuanyui/tldr.el), available on [MELPA](https://github.com/melpa/melpa)
 - [Go client](https://github.com/pranavraja/tldr): `go get github.com/pranavraja/tldr` (or [platform binaries](https://github.com/pranavraja/tldr/releases))
 - iOS clients:
   - [tldr-man-page](https://github.com/freesuraj/TLDR), available on [App Store](https://appsto.re/sg/IQ0-_.i)
   - [tldr-pages](https://github.com/mflint/ios-tldr-viewer), available on [App Store](https://itunes.apple.com/us/app/tldt-pages/id1071725095?ls=1&mt=8)
+- [Haskell client](https://github.com/psibi/tldr-hs) : `stack install tldr`
 - [Node.js client](https://github.com/tldr-pages/tldr-node-client) : `npm install -g tldr`
 - [Perl5 client](https://github.com/shoichikaji/perl-tldr): `cpanm App::tldr`
 - Python clients:
